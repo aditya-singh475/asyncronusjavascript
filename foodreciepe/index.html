@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search For Food</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo">Food Plaza</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<!-- Search Bar -->
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for food...">
+    <button id="but">Search</button>
+</div>
+<!------------Loading--------------->
+<p id="loading">Loading...</p>
+
+<!-----------------------------------------------cards---------------------------->
+
+<div class="food-container">
+
+    <!-- Card 1 -->
+    <!--<div class="food-card" onclick="showFood(0)">
+
+        <img src="https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg"
+            alt="Cassava pizza">
+
+        <div class="food-info">
+
+            <h2>Cassava Pizza</h2>
+
+            <p class="location">🌎 Venezuela</p>
+
+            <p class="category">Category: Pork</p>
+
+            <p class="short-description">
+                A delicious pizza made with cassava, chorizo,
+                turkey ham and mozzarella.
+            </p>
+
+            <button>View Details</button>
+
+        </div>
+    </div>
+   -->
+</div>
+
+
+<!-- Big Food Details Popup -->
+ 
+ <div class="food-popup" id="foodPopup">
+   <!----
+    <div class="popup-content">
+
+        <span class="close" onclick="closeFood()">&times;</span>
+
+        <img id="popupImage" src="" alt="Food">
+
+        <div class="popup-info">
+
+            <h2 id="popupName"></h2>
+
+            <p>
+                <strong>Category:</strong>
+                <span id="popupCategory"></span>
+            </p>
+
+            <p>
+                <strong>Area:</strong>
+                <span id="popupArea"></span>
+            </p>
+
+            <p>
+                <strong>Country:</strong>
+                <span id="popupCountry"></span>
+            </p>
+
+            <h3>Ingredients</h3>
+
+            <ul id="popupIngredients"></ul>
+
+            <h3>Instructions</h3>
+
+            <p id="popupInstructions"></p>
+
+            <a id="popupYoutube" href="" target="_blank">
+                Watch Recipe Video
+            </a>
+
+            <br><br>
+
+            <button class="order-btn">
+                Order Now
+            </button>
+
+        </div>---->
+
+    </div>
+
+</div>
+<script src="script.js"></script>  
+</body>
+</html>
